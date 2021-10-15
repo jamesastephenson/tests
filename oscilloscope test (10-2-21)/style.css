@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: pink;
+    color: white;
+    flex-direction: column;
+    font-family: 'Noto Sans Display', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px black;
+}
+
+.container {
+    padding: 3em;
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    border: 1px solid black;
+    background-color: black;
+    background-image: linear-gradient(black, rgb(29, 29, 29));
+    text-shadow: 2px 2px 4px pink;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 24pt;
+}
+
+.mainContent {
+    justify-content: center;
+    align-items: center;
+    padding: 1em 4em;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.controls {
+    display: block;
+    background-color: black;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.controls input {
+    width: 100%;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.controls button {
+    width: 100%;
+    background-color: pink;
+    background-image: linear-gradient(pink, rgb(196, 159, 165));
+    color: black;
+    font-size: 36pt;
+    padding: 0.25em;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: pink;
+    background-image: linear-gradient(rgb(153, 114, 114), rgb(196, 159, 165));
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.controls button:active {
+    transform: scale(0.98);
+}
+.output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .controls {
+        display: block;
+        padding: 1em;
+    }
+
+    .controls h1 {
+        font-size: 24pt;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .mainContent {
+        padding: 1em 10em;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .mainContent {
+        padding: 1em 12em;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .mainContent {
+        padding: 1em 16em;
+    }
+ } 

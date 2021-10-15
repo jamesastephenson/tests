@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectrum Analyser Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Spectrum Analyser Test</h1>
+        </div>
+        <div class="mainContent">
+            <div class="controls">
+                <h1>CLICK HERE TO START</h1>
+                <button onclick=playSong()>Play!</button>
+            </div>
+
+            <br>
+
+            <div class="output" id="output">
+                <audio src="live from the sixth circle (9-27-21 feedback jam).mp3" id="audio"></audio>
+                <audio src="live from the sixth circle (9-27-21 feedback jam).mp3" id="audio2"></audio>
+                <canvas id="canvas">
+
+                </canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
