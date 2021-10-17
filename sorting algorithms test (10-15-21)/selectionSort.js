@@ -1,5 +1,5 @@
 // Selection Sort
-    // uses recusion technique
+    // uses recursion technique
     // given an array, assume first elem is the smallest
     // from other portion of arr, find the minimum val and swap with first elem
     // repeat the same procedure with the rest of the arr comparing the elements to the right
