@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Slider (10-11-21)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Slider</h1>
+
+        <div class="controls">
+            <p>Basic color slider. The sliders control the R, G, and B color values</p>
+
+            <canvas height="300" width="300" id="c"></canvas>
+
+            <label>Red</label>
+            <input type="range" min="0" max="255" value="0" class="slider" id="rSlider">
+            <label>Green</label>
+            <input type="range" min="0" max="255" value="0" class="slider" id="gSlider">
+            <label>Blue</label>
+            <input type="range" min="0" max="255" value="0" class="slider" id="bSlider">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
