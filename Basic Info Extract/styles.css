@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.container {
+  width: 50%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.field {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+
+.field input:hover {
+  background: rgb(206, 206, 206);
+  border: 2px solid rgb(97, 97, 97);
+}
+
+.field * {
+    margin: 0 0.25em;
+    transition-duration: 0.2s;
+}
+
+.field2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+}
+  
+.field2 * {
+  margin: 0 0.25em;
+  transition-duration: 0.2s;
+}
+
+
+.btn {
+  background: rgb(80, 67, 109);
+  border: 1px solid rgb(119, 100, 163);
+  border-radius: 8px;
+  color: white;
+  font-size: 1.25em;
+  padding: 0.25em;
+  width: 100%;
+}
+  
+.btn:hover {
+  background: rgb(54, 44, 78);
+  cursor: pointer;
+  transform: scale(105%);
+}
+  
+.btn:active {
+  transform: scale(98%);
+}
+
+.form {
+  background: rgb(119, 100, 163);
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0 1em;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(5, 5, 7);
+  width: 50%;
+  min-width: 16em;
+}
+
+.result {
+    background: rgb(119, 100, 163);
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 1em;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(5, 5, 7);
+    width: 50%;
+    min-width: 16em;
+  }
