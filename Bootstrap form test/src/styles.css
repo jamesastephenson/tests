@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+#form {
+  background: blue;
+}
+
+.red {
+  border: 2px solid red;
+}
