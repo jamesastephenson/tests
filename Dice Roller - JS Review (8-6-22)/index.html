@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller - JS Review (8-6-22)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="diceRoller">
+        <h1>Dice Roller</h1>
+
+        <form class="controls" id="controls" onsubmit="RollDice(); return false;">
+            <label for="dieType">Type of Die</label>
+            <select name="dieType" id="dieType">
+                <option value="2">d2</option>
+                <option value="4">d4</option>
+                <option value="6">d6</option>
+                <option value="8">d8</option>
+                <option value="10">d10</option>
+                <option value="12">d12</option>
+                <option value="20">d20</option>
+                <option value="100">d100</option>
+            </select>
+
+            <label for="diceCount">Number of Dice</label>
+            <input type="number" name="diceCount" id="diceCount" placeholder="#">
+
+            <input type="submit" value="Roll!">
+        </form>
+        
+        <div class="output">
+            <h2 id="outputNum"></h2>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
